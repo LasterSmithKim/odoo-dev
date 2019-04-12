@@ -5,9 +5,9 @@
     'depends': ['base'],
     'application': True,
     'data': [
-        'security/library_security.xml',
-        'security/ir.model.access.csv',
         'views/library_menu.xml',
+        'security/ir.model.access.csv',
+        'security/library_security.xml',
         'views/book_view.xml',
         'views/book_list_template.xml',
     ],
